@@ -1,9 +1,12 @@
+<!-- <img align="right" src="/demo.gif" alt="Thais Stats" width="30%" style="padding: 100px;" /> -->
+<img align="right" src="demo.gif" width="250px" />
 
 # PinterestLikeGrid
 
 An easy way to create beautiful grid views on SwiftUI :) 
 
 This component allows you to split an array into any number of columns while still handling the original array with the correct indexes.
+
 
 ## Installation
 
