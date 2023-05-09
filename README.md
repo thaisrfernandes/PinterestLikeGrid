@@ -95,7 +95,7 @@ PinterestLikeGrid($data, columnSpacing: 3) { item, index in
 
 PinterestLikeGrid uses a helper method called `splitData` to split the data array into the specified number of columns. The method returns an array of arrays of hashable items.
 
-Then, it uses a `HStack` to display the columns and a `VStack` to display the items in each column. It also uses the `matchedGeometryEffect` modifier to provide a nice animation effect when the items are added or removed from the grid.
+Then, it uses a `HStack` to display the columns and a `VStack` to display the items in each column.
 
 `getIndexInList(for:)` is a helper method that returns the index of a specified item from the data array.
 
