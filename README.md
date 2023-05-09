@@ -43,9 +43,9 @@ struct ContentView: View {
 | :---------- | :--------- | :---------------------------------- |
 | `data` | `Binding<Array<T>>` | Binding array of hashable items to be displayed on the grid |
 | `columns` | `Int` | _(Optional)_ Number of columns to display grid. The default is 2.  |
-| `columnSpacing` | `CGFloat` | _(Optional)_ Number of spacing between columns  |
-| `rowSpacing` | `CGFloat` | _(Optional)_ Number of spacing between rows  |
-| `spacing` | `CGFloat` | _(Optional)_ Number of spacing between rows and columns  |
+| `columnSpacing` | `CGFloat` | _(Optional)_ Number of spacing between columns. The default is 8.  |
+| `rowSpacing` | `CGFloat` | _(Optional)_ Number of spacing between rows. The default is 8.  |
+| `spacing` | `CGFloat` | _(Optional)_ Number of spacing between rows and columns. The default is 8.  |
 | `content` | `(_ item: T, _ index: Int) -> View` | Closure that receives an item and an index that must return a view to represent each item in the grid |
 
 
