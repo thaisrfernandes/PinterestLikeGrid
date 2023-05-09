@@ -1,4 +1,3 @@
-<!-- <img align="right" src="/demo.gif" alt="Thais Stats" width="30%" style="padding: 100px;" /> -->
 <img align="right" src="demo.gif" width="250px" />
 
 # PinterestLikeGrid
